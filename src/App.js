@@ -12,12 +12,10 @@ class App extends Component {
         </header>
         <section className="searchbar">
           <form>
-            <input className="search" type="text" placeholer="Search for dining"/>
+            <input className="search white" type="text" placeholder=" Location or Restaurant" />
           </form>
         </section>
-        <section className="content-container speech-button">
-            <p><i className="fa fa-microphone fa-5x icon"></i></p>
-        </section>
+            <a className="waves-effect waves-light speech-button"><i className="fa fa-microphone fa-5x icon"></i></a>
       </main>
     );
   }
