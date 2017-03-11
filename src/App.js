@@ -10,7 +10,7 @@ class App extends Component {
             <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1489262593/Logo_horizontal_RGB_rrnfhk.png" alt="OpenTable" className="brand"/>
           </section>
         </header>
-        <section className="content-container searchbar">
+        <section className="searchbar">
           <form>
             <input className="search" type="text" placeholer="Search for dining"/>
           </form>
